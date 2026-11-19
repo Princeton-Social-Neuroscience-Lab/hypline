@@ -3,6 +3,8 @@ name = "hypline"
 version = "0.3.0"
 description = "Data Cleaning and Analysis Pipeline for Hyperscanning Research"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "Sangyoon Park" },
     { name = "Zaid Zada" },
@@ -14,6 +16,26 @@ maintainers = [
     { name = "Zaid Zada" },
 ]
 requires-python = ">=3.11"
+keywords = [
+    "hyperscanning",
+    "fMRI",
+    "encoding models",
+    "naturalistic language",
+    "dyadic conversation",
+    "speech production",
+    "speech comprehension",
+    "second-person neuroscience",
+    "language models",
+    "BIDS",
+    "fMRIPrep",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
 dependencies = [
     "h5netcdf>=1.8.1",
     "h5py>=3.16.0",
