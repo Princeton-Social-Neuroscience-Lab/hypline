@@ -1,7 +1,7 @@
 docs_dir: mkdocs
 site_name: Hypline
-repo_name: princeton-ddss/hypline
-repo_url: https://github.com/princeton-ddss/hypline
+repo_name: Princeton-Social-Neuroscience-Lab/hypline
+repo_url: https://github.com/Princeton-Social-Neuroscience-Lab/hypline
 copyright: Copyright &copy; 2025–2026 The Trustees of Princeton University
 
 theme:

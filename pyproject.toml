@@ -3,12 +3,39 @@ name = "hypline"
 version = "0.3.0"
 description = "Data Cleaning and Analysis Pipeline for Hyperscanning Research"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
-    { name = "Sangyoon Park", email = "datumvitae@gmail.com" },
-    { name = "Zaid Zada", email = "zada@berkeley.edu" },
-    { name = "Yeaju Kim", email = "ydkim@princeton.edu" },
+    { name = "Sangyoon Park" },
+    { name = "Zaid Zada" },
+    { name = "Yeaju Kim" },
+]
+maintainers = [
+    { name = "Yeaju Kim" },
+    { name = "Judith Mildner" },
+    { name = "Zaid Zada" },
 ]
 requires-python = ">=3.11"
+keywords = [
+    "hyperscanning",
+    "fMRI",
+    "encoding models",
+    "naturalistic language",
+    "dyadic conversation",
+    "speech production",
+    "speech comprehension",
+    "second-person neuroscience",
+    "language models",
+    "BIDS",
+    "fMRIPrep",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
 dependencies = [
     "h5netcdf>=1.8.1",
     "h5py>=3.16.0",
@@ -30,8 +57,9 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/princeton-ddss/hypline"
-Documentation = "https://princeton-ddss.github.io/hypline/latest/"
+Repository = "https://github.com/Princeton-Social-Neuroscience-Lab/hypline"
+Documentation = "https://princeton-social-neuroscience-lab.github.io/hypline/latest/"
+Issues = "https://github.com/Princeton-Social-Neuroscience-Lab/hypline/issues"
 
 [project.scripts]
 hypline = "hypline:main"
