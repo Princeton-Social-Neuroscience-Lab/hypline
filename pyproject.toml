@@ -1,6 +1,6 @@
 [project]
 name = "hypline"
-version = "0.3.1"
+version = "0.3.2"
 description = "Data Cleaning and Analysis Pipeline for Hyperscanning Research"
 readme = "README.md"
 license = "MIT"
