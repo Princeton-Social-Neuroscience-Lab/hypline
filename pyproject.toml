@@ -8,6 +8,11 @@ authors = [
     { name = "Zaid Zada" },
     { name = "Yeaju Kim" },
 ]
+maintainers = [
+    { name = "Yeaju Kim" },
+    { name = "Judith Mildner" },
+    { name = "Zaid Zada" },
+]
 requires-python = ">=3.11"
 dependencies = [
     "h5netcdf>=1.8.1",
