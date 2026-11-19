@@ -2,8 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/princeton-ddss/hypline/actions/workflows/ci.yml/badge.svg)](https://github.com/princeton-ddss/hypline/actions/workflows/ci.yml)
-[![CD](https://github.com/princeton-ddss/hypline/actions/workflows/cd.yml/badge.svg)](https://github.com/princeton-ddss/hypline/actions/workflows/cd.yml)
+[![CI](https://github.com/Princeton-Social-Neuroscience-Lab/hypline/actions/workflows/ci.yml/badge.svg)](https://github.com/Princeton-Social-Neuroscience-Lab/hypline/actions/workflows/ci.yml)
+[![CD](https://github.com/Princeton-Social-Neuroscience-Lab/hypline/actions/workflows/cd.yml/badge.svg)](https://github.com/Princeton-Social-Neuroscience-Lab/hypline/actions/workflows/cd.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24170111.svg)](https://doi.org/10.5281/zenodo.24170111)
 
 Hypline is a command-line toolbox for cleaning and analyzing data from
@@ -73,7 +73,7 @@ for transcripts, or `denoise` alone to clean fMRIPrep BOLD.
 ## Quick start
 
 Once your files sit where hypline expects (see
-[the dataset layout](https://princeton-ddss.github.io/hypline/latest/step-by-step/layout/)),
+[the dataset layout](https://princeton-social-neuroscience-lab.github.io/hypline/latest/step-by-step/layout/)),
 you only ever point a command at the dataset root — it finds its own inputs from
 there, so you never pass file paths. End to end, the whole pipeline is four
 commands:
@@ -104,13 +104,13 @@ has already done.
 ## Documentation
 
 Full guides and per-command reference live at the project
-[documentation](https://princeton-ddss.github.io/hypline/latest/). New to
+[documentation](https://princeton-social-neuroscience-lab.github.io/hypline/latest/). New to
 hypline? Walk through
-[a full run on the example dataset](https://princeton-ddss.github.io/hypline/latest/tutorials/walkthrough/),
+[a full run on the example dataset](https://princeton-social-neuroscience-lab.github.io/hypline/latest/tutorials/walkthrough/),
 or read
-[The hypline dataset layout](https://princeton-ddss.github.io/hypline/latest/step-by-step/layout/) —
+[The hypline dataset layout](https://princeton-social-neuroscience-lab.github.io/hypline/latest/step-by-step/layout/) —
 every command depends on it. To load a fitted model or eval back into Python, see
-the [encoding results API](https://princeton-ddss.github.io/hypline/latest/step-by-step/encoding-results/).
+the [encoding results API](https://princeton-social-neuroscience-lab.github.io/hypline/latest/step-by-step/encoding-results/).
 
 ## Citing Hypline
 

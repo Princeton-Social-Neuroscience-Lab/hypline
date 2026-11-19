@@ -30,8 +30,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/princeton-ddss/hypline"
-Documentation = "https://princeton-ddss.github.io/hypline/latest/"
+Repository = "https://github.com/Princeton-Social-Neuroscience-Lab/hypline"
+Documentation = "https://princeton-social-neuroscience-lab.github.io/hypline/latest/"
 
 [project.scripts]
 hypline = "hypline:main"
